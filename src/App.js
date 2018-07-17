@@ -6,7 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1>Firebase Login</h1>
+      <center><h1>Firebase Login</h1></center>
+      <input placeholder="Email"/><br/>
+      <input placeholder="Password" type="password"/>
+      <button type="submit">Submit</button>
       </div>
     );
   }
