@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import firebase from "firebase";
-import { auth } from "./firebase/firebase.js";
 //SIGNIN Form using Basic REST API Signin
 class App extends Component {
   constructor(props) {
