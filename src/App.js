@@ -19,6 +19,11 @@ class App extends Component {
      console.log(e.target.value);
      this.setState({password:e.target.value});
   }
+  //Post Request API Callback
+  SignIn()
+  {
+
+  }
   render() {
     return (
       <div className="App">
@@ -28,7 +33,7 @@ class App extends Component {
         <input placeholder="Email" type="email" onChange={this.MailChange}/>
         <br />
         <input placeholder="Password" type="password"  onChange={this.PasswordChange}/>
-        <button type="submit" >Submit</button>
+        <button type="submit" onClick={this.SignIn.bind(this)} >Submit</button>
       </div>
     );
   }
